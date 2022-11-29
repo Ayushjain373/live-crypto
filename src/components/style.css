@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+/* //// Home///// */
+.main-text {
+
+
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+    margin-top: 50px;
+
+}
+
+.btnn1 {
+    background: #EFF2F5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Montserrat";
+
+}
+
+.btnn2 {
+    background: #EFF2F5;
+    display: flex;
+    color: blue;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+    font-weight: 700;
+
+
+}
+
+.group_button {
+    display: flex;
+    gap: 1rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+}
+
+.rows {
+    margin-top: 15px;
+}
+
+@media (max-width: 810px) {
+    .group {
+
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width:410px) {
+
+    .l_text {
+
+        font-size: 20px;
+        margin-top: 13px;
+    }
+
+    .main-text {
+
+        font-size: 25px;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+.first_box{
+    
+    display: flex !important;
+    margin-right: 30px;
+    width: 100% !important;
+    padding: 20px 31px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #fff;
+ 
+}
+.first_text{
+    display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+   margin-left: 15px;
+    text-transform: capitalize;
+    border-radius: 20px;
+   
+}
+.first_text{
+
+    color:gray;
+    font-family: "Montserrat";
+}
+.second_text{
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: "Montserrat";
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+   font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* ///// header css///// */
+
+.logo{
+  display: flex;
+  margin: 10px 8px;
+  gap: 1rem;
+}
+
+.l_img{
+  font-size: 30px;
+  margin-top: 3px;
+  cursor: pointer;
+
+}
+.l_text{
+ 
+  font-size: 30px;
+  font-weight: bold;
+  font-family:'Montserrat' ;
+  margin-top: 6px;
+
+}
+.header{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.search{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+.search .searchicon{
+
+  font-size: 35px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.search .burger{
+
+  cursor: pointer;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
